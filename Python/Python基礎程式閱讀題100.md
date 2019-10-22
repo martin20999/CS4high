@@ -151,6 +151,17 @@ x.strip("gor")
 x.strip(".gorw")  
 ```
 ```
+底下程式執行後各行結果為何?
+x = "123"
+x.isdigit()
+x.isalpha()
+
+底下程式執行後各行結果為何?
+x = "M"
+x.islower()
+x.isupper()
+```
+```
 # 使用內建函數:用int() 和float()函示將字串轉換為數字
 
 下列程式執行後結果為何?何者有誤?
