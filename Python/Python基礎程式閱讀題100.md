@@ -37,32 +37,6 @@ cmath.sqrt(-1)
 ```
 
 
-```
-
-```
-
-
-```
-
-```
-
-
-```
-
-```
-
-
-```
-
-```
-
-
-```
-
-```
-
-
-
 # 字串
 
 ```
@@ -110,6 +84,58 @@ x[1:-1]
 x = "Goodbye\n"
 x = x[:-1]
 x
+```
+```
+len("Goodbye")
+```
+### 基本的字串操作
+```
+x = "Hello " + "Mydeargreatteacher"
+x
+```
+```
+8 * "x"
+```
+### Unicode轉義字元
+```
+unicode_a ='\N{LATIN SMALL LETTER A}'
+unicode_a
+```
+```
+unicode_a_with_acute = '\N{LATIN SMALL LETTER A WITH ACUTE}'      
+unicode_a_with_acute
+```
+```
+"\u00E1"
+```
+### 字串處理常用的method(方法)
+```
+# 使用join()連接字串
+"".join(["Separated", "by", "nothing"])
+
+" ".join(["join", "puts", "spaces", "between", "elements"])
+
+"::".join(["Separated", "with", "colons"])
+```
+```
+# 使用split()切割字串
+x = "You\t\t can have tabs\t\n \t and newlines \n\n mixed in"
+x.split()
+
+x = "Mississippi"
+x.split("ss")
+
+x = 'a b c d'
+x.split(' ', 1)
+
+['a', 'b c d']
+x.split(' ', 2)
+
+['a', 'b', 'c d']
+x.split(' ', 9)
+```
+```
+
 ```
 ### while loop
 ```
