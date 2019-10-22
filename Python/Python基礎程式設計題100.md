@@ -12,6 +12,30 @@ https://www.runoob.com/python/python-100-examples.html
 ```
 ```
 答案是：
+1 2 3
+1 2 4
+1 3 2
+1 3 4
+1 4 2
+1 4 3
+2 1 3
+2 1 4
+2 3 1
+2 3 4
+2 4 1
+2 4 3
+3 1 2
+3 1 4
+3 2 1
+3 2 4
+3 4 1
+3 4 2
+4 1 2
+4 1 3
+4 2 1
+4 2 3
+4 3 1
+4 3 2
 
 ```
 
@@ -31,7 +55,10 @@ https://www.runoob.com/python/python-100-examples.html
 ```
 ```
 答案是：
-
+淨利潤:120000
+1500.0
+10000.0
+11500.0
 ```
 #
 ```
@@ -50,6 +77,10 @@ https://www.runoob.com/python/python-100-examples.html
 ```
 ```
 答案是：
+-99
+21
+261
+1581
 
 ```
 #
