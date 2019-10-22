@@ -3,7 +3,16 @@
 資料來原:各競賽考題
 也可以使用 c/c++/JAVA/c# 來開發
 ```
+```
+online c compiler
+https://www.tutorialspoint.com/compile_c_online.php
 
+online c++ compiler
+https://www.tutorialspoint.com/compile_cpp_online.php
+
+online JAVA compiler
+https://www.tutorialspoint.com/compile_java_online.php
+```
 
 ## APCS
 ```
@@ -92,13 +101,73 @@ while True:
 ### C解答
 
 ```
+#include<stdio.h>> 
 
-
+int main(){
+	int a,b,c;
+	printf("請輸入三個整數,例如 1 1 1 \n");
+	scanf("%d %d %d",&a,&b,&c);
+    
+    
+	int and_op,or_op,xor_op;
+	 
+	if(a>0) a=1;
+	if(b>0) b=1;
+    
+	if((a&b)==c) 
+       and_op=1;  
+    else 
+       and_op=0;
+       
+	if((a|b)==c) 
+       or_op=1;   
+    else 
+       or_op=0;
+       
+	if((a*b)==c) 
+       xor_op=1;  
+    else 
+       xor_op=0;
+	
+	if(and_op==1) printf("AND\n");
+	if(or_op==1)  printf("OR\n");
+	if(xor_op==1) printf("XOR\n");
+	
+	if(and_op==0 && or_op==0 && xor_op==0)
+		printf("IMPOSSIBLE");
+		
+	return 0; 
+}
 ```
 
 ### C++解答
 
 ```
+# include <iostream>
+# inlclude <string.h>
+
+using namespace std;
+
+int main{
+   int a, b, c;
+   printf(“輸入三個整數，數值以空白分開：”);
+   scanf(“%d %d %d”, &a, &b, &c);
+
+   char ans[20] = "";
+   
+   if(a>0) a = 1;
+   if(b>0) b = 1;
+   
+   if((a&b)==c) strcat(ans, “AND\n”);
+   if((a|b)==c) strcat(ans, “OR\n”);
+   if((a^b)==c) strcat(ans, “XOR\n”); 
+   //^ 為位元XOR, 在 0 與 1 的XOR運算是正確的
+   if(strlen(ans)==0) strcat(ans, “IMPOSSIBLE\n”);
+    // 前面都不成立時為 IMPOSSIBLE
+
+   printf(“%s”, ans);
+
+   return 0;
 
 
 ```
