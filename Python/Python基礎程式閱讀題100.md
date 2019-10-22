@@ -135,6 +135,22 @@ x.split(' ', 2)
 x.split(' ', 9)
 ```
 ```
+# 使用strip(()、lstrip()、rstrip()去除多餘空白
+
+底下程式執行後各行結果為何?
+x = "  Hello,    World\t\t "
+x.strip()
+x.lstrip()
+x.rstrip()
+
+
+底下程式執行後各行結果為何?
+x = "www.python.org"
+x.strip("w")  
+x.strip("gor")       
+x.strip(".gorw")  
+```
+```
 # 使用內建函數:用int() 和float()函示將字串轉換為數字
 
 下列程式執行後結果為何?何者有誤?
