@@ -68,6 +68,47 @@ XOR
 範例三：正確輸出
 IMPOSSIBLE
 ```
+### Python解答
+```
+while True:
+    in1 = input('輸入a b c (直接按Enter結束): ')
+    if in1 == '': break
+    split1 = in1.split(' ')
+    a = int(split1[0])
+    b = int(split1[1])
+    c = int(split1[2])
+
+    ans = ''
+    if a > 0: a = 1
+    if b > 0: b = 1
+    
+    if (a and b) == c: ans += 'AND '
+    if (a or b) == c: ans += 'OR '
+    if (a ^ b) == c: ans += 'XOR'  #^為位元XOR,在0與1的XOR運算是正確的
+    if ans == '': ans = 'IMPOSSIBLE'  #前面都不成立時為IMPOSSIBLE
+    
+    print(ans)
+```
+### C解答
+
+```
+
+
+```
+
+### C++解答
+
+```
+
+
+```
+
+### JAVA解答
+
+```
+
+
+```
 
 
 ## 2017-10-28__2 交錯字串 (Alternating Strings)
