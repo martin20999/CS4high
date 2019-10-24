@@ -1,8 +1,6 @@
 
 # netstat /?
 ```
-netstat /? > netstat.txt
-
 顯示通訊協定統計資料和目前的 TCP/IP 網路連線。
 
 NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-x] [-t] [interval]
