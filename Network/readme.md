@@ -24,9 +24,18 @@ https://www.youtube.com/watch?v=FTUV0t6JaDA
 
 # 網路協定
 ```
+OSI Model Explained | OSI Animation | Open System Interconnection Model | OSI 7 layers | TechTerms
+https://www.youtube.com/watch?v=vv4y_uOneC0
+
 
 ```
+### ARP
+```
+Address Resolution Protocol (ARP) - Explained with example | Computer network | TechTerms
+https://www.youtube.com/watch?v=EC1slXCT3bg
 
+MAC Address
+```
 ### TCP vs UDP 
 ```
 TCP vs UDP Comparison
@@ -34,7 +43,7 @@ https://www.youtube.com/watch?v=uwoD5YsGACg
 ```
 
 
-### DNS
+### SSL, TLS, HTTP, HTTPS 
 ```
 SSL, TLS, HTTP, HTTPS Explained
 https://www.youtube.com/watch?v=hExRDVZHhig
@@ -46,9 +55,10 @@ What is a Proxy Server?
 https://www.youtube.com/watch?v=5cPIukqXe5w
 ```
 
-### DNS
+### FTP (File Transfer Protocol), SFTP, TFTP Explained.
 ```
-
+FTP (File Transfer Protocol), SFTP, TFTP Explained.
+https://www.youtube.com/watch?v=tOj8MSEIbfA
 ```
 
 ### DNS
