@@ -1,0 +1,24 @@
+#
+```
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_style
+```
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {color:red;}
+p {color:blue;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+```
