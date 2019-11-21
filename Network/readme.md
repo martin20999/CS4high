@@ -100,10 +100,10 @@ MAC Address
 ### ICMP
 ```
 Internet Control Message Protocol
+![ICMP 封包格式](icmp_header.gif)
 ```
 #### ICMP Message Format封包格式:
 
-![ICMP 封包格式](icmp_header.gif)
 ```
 ICMP 封包格式，其各欄位功能如下：
 ● 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如表 5-2 所示。
