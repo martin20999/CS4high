@@ -135,7 +135,11 @@ ICMP 封包格式，其各欄位功能如下：
 17 Address Mask Request（位址遮罩要求）
 18 Address Mask Reply（位址遮罩回覆）
 ```
+### ICMP 封裝
 
+![ICMP 封裝](icmp_encap.gif)
+
+### ICMP 常用指令
 ```
 ping 
 tracert| Traceroute
