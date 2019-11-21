@@ -22,7 +22,7 @@ NAT Explained - Network Address Translation
 https://www.youtube.com/watch?v=FTUV0t6JaDA
 ```
 # 網路硬體
-```
+
 ```
 Layer-1:repeater(1-1), hub(1-N)
 Layer-2:bridgr, switch
@@ -31,7 +31,7 @@ Layer-4: L4 switch
 Layer-7: L7 switch, proxy
 ```
 
-```
+
 
 # 網路協定:
 
