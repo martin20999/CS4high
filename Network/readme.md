@@ -56,7 +56,30 @@ ICMP 封包格式，其各欄位功能如下：
 ● 檢查集檢查碼（Checksum）：對該封包檢查集錯誤偵測。
 ● 訊息說明（Message description）：依照不同的控制訊息，而有不同的說明方式。
 ```
+#### Message Type
+```
+    ICMP 訊息功能
 
+[重要]0  Echo Reply（回應答覆）
+[重要]3  Destination Unreachable（目的地無法到達）
+
+4 Source Quench（來源抑制）
+
+[重要]5 Redirect（改變傳輸路徑）
+
+[重要]8 Echo Request（回應要求）
+
+9 Router Advertisement（路由器宣傳）
+10 Router Solicitation（路由器懇請）
+11 Time Exceeded for a Datagram（溢時傳輸）
+12 Parameter Problem on a Datagram（參數問題）
+13 Timestamp Request（時間標籤要求）
+14 Timestamp Reply（時間標籤回覆）
+15 Information Request（資訊要求）（停用）
+16 Information Reply（資訊回覆）（停用）
+17 Address Mask Request（位址遮罩要求）
+18 Address Mask Reply（位址遮罩回覆）
+```
 
 ```
 ping 
